@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Form</title>
+    <style>
+        .table-1{
+            border: 10px solid #d5feff;
+        }
+        .table-2{
+            background-color: #fffda9;
+        }
+        .color-text {
+            color: blue;
+        }
+        .color-text-2 {
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+<form method="get" action="">
+    <table class="table-1" width="40%">
+        <tr>
+            <td style="border: none;">
+                <div style="background-color: orangered; width: 100%; height: 10%">
+                    <h1 style="text-align: center; color: white">Sở Thích Của Bạn</h1>
+                </div>
+                <div style="padding-left: 10%">
+                    <label class="color-text">Họ Và Tên</label> <input type="text" name="yourname"> <br> <br>
+                <div style="padding-left: 32px">
+                    <label class="color-text">Email</label> <input type="text" name="email">
+                </div>
+                <br>
+                <div style="padding-left: 19px">
+                    <label class="color-text">Sở thích</label>
+                    <label class="color-text-2">
+                    <label><input name="hobby"  type="checkbox"/> Thể thao</label>
+                    <label style="padding-left: 7px;"><input name="hobby"  type="checkbox"/> Âm nhạc</label>
+                    <label style="padding-left: 22px;"><input name="hobby"  type="checkbox"/> Đọc sách</label> <br>
+                    <label style="padding-left: 58px;"><input name="hobby" type="checkbox"/> Lướt web</label>
+                    <label style="padding-left: 1px;"><input name="hobby" type="checkbox"/> Chơi game</label>
+                    <label style="padding-left: 9px;"><input name="hobby" type="checkbox"/> Điện ảnh</label> <br>
+                    <label style="padding-left: 58px;"><input name="hobby" type="checkbox"/> Du lịch</label>
+                    </label>
+                </div>
+                    <br>
+                <div style="padding-left: 77px">
+                    <input type="submit" value="Gửi thông tin">
+                    <input type="reset" value="Nhập lại">
+                </div>
+                    <br>
+                </div>
+            </td>
+        </tr>
+    </table>
+</form>
+
+<hr> <hr>
+
+<form method="get" action="">
+    <table class = "table-2" width="40%">
+        <tr>
+            <td>
+                <div style="background-color: #d5feff">
+                    <h1 style="color: blue">ĐĂNG KÍ HỌC VIÊN</h1>
+                </div >
+
+                    <label class="color-text">Họ và tên</label> <input style="margin-left: 20px" type="text" name="yourname"> <br> <br>
+
+                    <label class="color-text">Ngày sinh</label> <input style="margin-left: 17px" type="text" name="birthday">
+
+                    <br>
+                    <br>
+                    <label class="color-text"> Giới tính </label>
+                    <label style="padding-left: 30px"><input name="gender" value="Men" type="radio" /> Nam</label>
+                    <label><input name="gender" value="Women" type="radio"/> Nữ</label>
+                    <br>
+                    <br>
+                    <div class="color-text"> Địa Chỉ </div>
+                    <textarea style="margin-left: 85px"; cols="35" rows="4">This is a very </textarea> <br> <br>
+
+
+                    <label class="color-text" for="class">Lớp </label>
+                    <select style="margin-left: 54px"; id="class" name="Class">
+                        <option value="Select-Class">-- Chọn lớp --</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                    </select> <br> <br>
+
+                    <label class="color-text">Email <input style="margin-left: 42px" name="email" type="text"/></label> <br> <br>
+                    <label class="color-text">Điện Thoại <input style="margin-left: 7px" name="phone" type="text"/></label> <br> <br>
+
+                    <div style="padding-left: 83px">
+                        <input type="submit" value="Đăng ký">
+                        <input type="reset" value="Nhập lại">
+                    </div>
+
+                    <br>
+
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
